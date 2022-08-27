@@ -20,3 +20,6 @@ class Answer(models.Model):
         return self.choice_text
 
 # with this class define, django can create table on database, also create Python database-access API which u can access with django shell
+# with FK, django create a set to hold other side ojbects,
+# so basically, u can call question.answer_set.all() to get all the relative answer.
+
